@@ -24,7 +24,7 @@ export const Banner = () => {
   const [text, setText] = useState('');              // Current displayed text
   const [delta, setDelta] = useState(300 - Math.random() * 100); // Speed of typing effect
   const [index, setIndex] = useState(1);             // Position in the current word
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ]; // Words to rotate
+  const toRotate = [ "Solutions Architect", "UI/UX Designer", "Web Developer", "Project Manager", "Concept Artist"]; // Words to rotate
   const period = 2000;                               // Pause time before deleting word
 
   // useEffect to run typing effect repeatedly
@@ -87,8 +87,8 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   {/* Main heading with rotating text effect */}
                   <h1>
-                    {`Hi! I'm Judy`} 
-                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'>
+                    {`Hi, I'm Kajal!`} 
+                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Solutions Architect", "UI/UX Designer", "Web Developer", "Project Manager", "Concept Artist" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>

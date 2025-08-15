@@ -1,5 +1,5 @@
 // Import the React logo (not used currently but included by default)
-//import logo from './logo.svg';  
+import logo from './logo.svg';  
 
 // Import the global CSS for the app
 import './App.css';  
